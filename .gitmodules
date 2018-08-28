@@ -4,3 +4,6 @@
 [submodule "Mirror"]
 	path = Mirror
 	url = https://github.com/JohannaLatt/SHM-Mirror.git
+[submodule "Kinect"]
+	path = Kinect
+	url = https://github.com/JohannaLatt/SHM-Kinect.git
