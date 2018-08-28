@@ -10,13 +10,16 @@ The code is split up into three main modules: The server, the mirror and the Kin
 git clone https://github.com/JohannaLatt/Master-Thesis-Smart-Health-Mirror.git
 ```
 
-Then, clone the submodules (otherwise the folders will be empty)
+Then, clone the submodules and pull the code (otherwise the folders will be empty):
 
 ```
 git submodule update --init --recursive
 ```
 
-The submodules are private so please reach out to me for access!
+**The submodules are private so please reach out to me for access!**
+
+When updating a submodule, make sure to update this repository with the changes as well:
+```git submodule update --recursive --remote ```
 
 
 ## Description and Architecture
