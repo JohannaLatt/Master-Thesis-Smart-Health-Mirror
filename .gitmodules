@@ -6,3 +6,7 @@
 	path = Mirror
 	url = https://github.com/JohannaLatt/SHM-Mirror.git
 	branch = master
+[submodule "Kinect"]
+	path = Kinect
+	url = https://github.com/JohannaLatt/SHM-Kinect.git
+	branch = master
