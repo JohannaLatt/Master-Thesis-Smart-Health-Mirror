@@ -2,3 +2,7 @@
 	path = Server
 	url = https://github.com/JohannaLatt/SHM-Server.git
 	branch = master
+[submodule "Mirror"]
+	path = Mirror
+	url = https://github.com/JohannaLatt/SHM-Mirror.git
+	branch = master
