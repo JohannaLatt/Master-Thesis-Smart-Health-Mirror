@@ -2,6 +2,23 @@
 
 This is the code base for the master thesis "Smart Health Mirror - Development of a Framework for Automated Evaluation of Physical Exercises" written by Johanna Latt at the [Hasso Plattner Institute](https://hpi.de/) in Potsdam, Germany, and in cooperation with the [Mt Sinai Institute for Next Generation Healthcare](http://www.nextgenhealthcare.org/) in New York City, USA.
 
+# Installation
+
+The code is split up into three main modules: The server, the mirror and the Kinect. Each module is in a separate repository. To clone the whole code, first clone this repository:
+
+```
+git clone https://github.com/JohannaLatt/Master-Thesis-Smart-Health-Mirror.git
+```
+
+Then, clone the submodules (otherwise the folders will be empty)
+
+```
+git submodule update --init --recursive
+```
+
+The submodules are private so please reach out to me for access!
+
+
 ## Description and Architecture
 
 The framework consists of four independently running services. Each services can be run on separate machines to improve performance. 
