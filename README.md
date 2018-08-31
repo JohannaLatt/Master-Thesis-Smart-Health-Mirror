@@ -19,7 +19,9 @@ git submodule update --init --recursive
 **The submodules are private so please reach out to me for access!**
 
 When updating a submodule, make sure to update this repository with the changes as well:
-```git submodule update --recursive --remote ```
+```
+git submodule update --recursive --remote 
+```
 
 
 ## Description and Architecture
