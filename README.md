@@ -198,9 +198,9 @@ The server is a simply Python flask server that we need to start:
 
 1. Make sure to have the necessary requirements installed: `pip install -r [link to requirements.txt in Server folder]` (if you use virtual environments, make sure to activate it)
 2. Go to /Server/Server in this repository: `cd Server/Server`
-3. Set the `FLASK_APP`-environment variable to \_\_index\_\_.py
-  * Mac/Linux: `export FLASK_APP= __index__.py`
-  * Windows: `set FLASK_APP= __index__.py`
+3. Set the `FLASK_APP`-environment variable to \_\_init\_\_.py
+  * Mac/Linux: `export FLASK_APP= __init__.py`
+  * Windows: `set FLASK_APP= __init__.py` (using Powershell: `$env:FLASK_APP = "__init__.py"`
 4. Update the RabbitMQ-messaging-server-ip in the [config-file](https://github.com/JohannaLatt/Smart-Health-Mirror/blob/master/Server/Server/config/mirror_config.ini) if needed
 5. Run the server:
 ```
