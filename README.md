@@ -148,7 +148,7 @@ Under Windows, the procedure is as follows:
   * Enable the management console by running `rabbitmq-plugins enable rabbitmq_management`
   * Now you should be able to go to (http://localhost:15672/) in your browser and see the management GUI of RabbitMQ
   * The default username and password is `guest`
-  * Go to the Admin-tab and click on „Add a user“ at the bottom, set the name to 'Kinect' and the password to 'Kinect', set the user as admin and confirm
+  * Go to the Admin-tab and click on „Add a user“ at the bottom, set the name to `Kinect` and the password to `kinect`, set the user as admin and confirm
   * Click on the name of the new user to open more settings
   * Click on „Set permission“ without changing anything to allow access
 5. After this, the KinectStreaming.exe should be able to connect and you can go ahead and start the other services
@@ -206,6 +206,11 @@ The server is a simply Python flask server that we need to start:
 ```
 flask run
 ```
+6. If there are still error messages when running the server, execute it in development-mode:
+ ```
+ set FLASK_ENV=development
+ ```
+
 
 ### Mirror
 The mirror is a kivy appliation that is run as a normal python application:
