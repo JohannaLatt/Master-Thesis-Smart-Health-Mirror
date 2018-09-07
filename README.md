@@ -16,8 +16,6 @@ Then, clone the submodules and pull the code (otherwise the folders will be empt
 git submodule update --init --recursive
 ```
 
-**The submodules are private so please reach out to me for access!**
-
 When updating a submodule, make sure to update this repository with the changes as well:
 ```
 git submodule update --recursive --remote 
@@ -200,7 +198,7 @@ The server is a simply Python flask server that we need to start:
 2. Go to /Server/Server in this repository: `cd Server/Server`
 3. Set the `FLASK_APP`-environment variable to \_\_init\_\_.py
   * Mac/Linux: `export FLASK_APP= __init__.py`
-  * Windows: `set FLASK_APP= __init__.py` (using Powershell: `$env:FLASK_APP = "__init__.py"`
+  * Windows: `set FLASK_APP= __init__.py` (using Powershell: `$env:FLASK_APP = "__init__.py"`)
 4. Update the RabbitMQ-messaging-server-ip in the [config-file](https://github.com/JohannaLatt/Smart-Health-Mirror/blob/master/Server/Server/config/mirror_config.ini) if needed
 5. Run the server:
 ```
